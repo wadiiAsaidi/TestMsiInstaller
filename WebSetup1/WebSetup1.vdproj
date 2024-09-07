@@ -70,6 +70,16 @@
         {
             "LaunchCondition"
             {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_BDEB98F29ABA4955A72CD12AE61AE357"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
             }
         }
         "File"
@@ -164,7 +174,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WebSetup1"
         "ProductCode" = "8:{68DB9EDA-82C1-4B4B-9E76-8901000E6FED}"
-        "PackageCode" = "8:{A58B8A2E-E5FF-42B3-8880-7CF79DB713CC}"
+        "PackageCode" = "8:{BE2B1C57-A87F-411A-8099-7DC7F452AD27}"
         "UpgradeCode" = "8:{4E2097AD-EE5E-4AC8-B373-73041E041B54}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -616,7 +626,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_03886A7A2B25460280C967863D4BF14D"
             {
-            "SourcePath" = "8:..\\TestMsiInstaller\\obj\\Debug\\netcoreapp3.1\\apphost.exe"
+            "SourcePath" = "8:..\\TestMsiInstaller\\obj\\Release\\netcoreapp3.1\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_1A2E1ADE3379425FB1453390F1858EA5"
